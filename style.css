@@ -83,8 +83,7 @@ li{
 
 .hero{
     background-position: 30px;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: url("./images/cool-background.png");
-    object-fit: fill;
 }
