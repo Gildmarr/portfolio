@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.navbar{
+    padding: 5px;
+    height:7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(12, 64, 88, 0.726);
+    z-index: 2;
+}    
+
+.logo{
+    color: white;
+    padding-left: 5px;
+    font-family: "Xanh Mono", monospace;
+    font-weight: lighter;
+}
+.logo h1{
+    font-size: 2rem;
+}
+.menu-drop{
+padding-right: 20px;
+padding-top: 2px;
+}
+.menu-icon-open{
+    fill:white;
+}
+
+.menu-icon-close{
+    fill: white;
+    padding-bottom: 2px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.menu{
+    display: none;
+}
+
+
+.menu-items{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+li{
+   list-style: none
+}
+.menu-dropdown{
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.menu-dropdown ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap:20px;
+}
+
+.hero{
+    background-position: 30px;
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/cool-background.png");
+    object-fit: fill;
+}
