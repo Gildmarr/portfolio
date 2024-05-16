@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body {
+/* body {
 	background: linear-gradient(-45deg, #e0e0d8, #cffab6, #98dd9ca8, #b4f5a7);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
@@ -32,7 +32,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 .navbar{
     position: fixed;
