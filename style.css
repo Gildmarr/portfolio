@@ -3,12 +3,24 @@
     padding: 0;
 }
 body {
-    
-    height: 100vh;
-    background: linear-gradient(10deg, rgb(213, 248, 197), #f1dfcc, #72ff91);
-    animation: gradientAnimation 30s infinite;
-    background-size: 600% 600%;
+	background: linear-gradient(-45deg, #e4cbc3, #cffab6, #98dd983d, #6cff4f);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 @keyframes gradientAnimation {
     0% {
