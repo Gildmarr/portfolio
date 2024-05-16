@@ -2,53 +2,33 @@
     margin: 0;
     padding: 0;
 }
-/* body {
-	background: linear-gradient(-45deg, #e0e0d8, #cffab6, #98dd9ca8, #b4f5a7);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height: 100vh;
+body{
+    background-color: antiquewhite;
+    font-family: "quicksand";
+
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.titoli{
+    font-size: 2rem;
+    font-family: "quicksand";
+    font-weight: bolder;
+    color:  #0c5740;
 }
-
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-} */
-
 .navbar{
     position: fixed;
     border-radius: 20px;
     background-color: rgba(255, 252, 252, 0.301);
-    width: 99%;
+    width: 100%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container-hero{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top:80px;
 }
 .container-nav ul{
     display: flex;
@@ -63,28 +43,54 @@
     /* color:  #0B6E4F; */
 }
 .title{
-    
+    text-align: center;
     width: 100%;
-    margin-top:80px;
     margin-bottom:15px;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9rem;
-    align-items: center;
-    justify-content: center;
-    font-family: "quicksand";
-    font-weight: bolder;
-    color:  #0c5740;
 }
 .paragrafo{
     word-wrap: break-word;
     text-align: center;
     width: 80%;
-    height: 80px;
+    height: 150px;
 }
 .paragrafo p{
     margin-top: 15px;
     font-family: "quicksand";
 }
-
+.conteiner-progetti{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+.primo {
+    width: 80%;
+    height: 300px;
+    word-wrap: break-word;
+    background-color: rgba(214, 195, 195, 0.185);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.relma-img{
+    width: 70%;
+    height: 100%;
+    background-image: url(./images/relma\ tool.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.relma-parag{
+    width: 50%;
+    word-wrap:break-word;
+}
+.relma-parag p{
+    font-size: 0.9em;
+}
