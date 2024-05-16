@@ -55,8 +55,8 @@ body{
     height: 150px;
 }
 .paragrafo p{
-    margin-top: 15px;
     font-family: "quicksand";
+    font-style: italic;
 }
 .conteiner-progetti{
     height: auto;
@@ -71,7 +71,6 @@ body{
     height: 300px;
     word-wrap: break-word;
     background-color: rgba(214, 195, 195, 0.185);
-    padding: 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
