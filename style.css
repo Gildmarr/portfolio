@@ -3,21 +3,18 @@
     padding: 0;
 }
 body{
-
     height: 100vh;
     width: 100%;
-    
-    
 }
 .navbar{
     padding: 5px;
-    height:7%;
+    height:40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: rgba(12, 64, 88, 0.726);
+    background-color: rgba(106, 163, 196, 0.411);
     z-index: 2;
 }    
 
@@ -31,7 +28,7 @@ body{
     font-size: 2rem;
 }
 .menu-drop{
-padding-right: 20px;
+padding-right: 30px;
 padding-top: 2px;
 }
 .menu-icon-open{
@@ -43,7 +40,7 @@ padding-top: 2px;
     padding-bottom: 2px;
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 30px;
 }
 
 .menu{
@@ -82,8 +79,55 @@ li{
 }
 
 .hero{
-    background-position: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: 250px;
     height: 100vh;
     width: 100%;
-    background-image: url("./images/cool-background.png");
+   /* background-image: url("./images/cool-background.png");  */
+    background-color: black;
+    object-fit: fill;
 }
+.hero .img-profilo{
+    border: 5px solid rgba(106, 163, 196, 0.411);
+    height: 100px;
+    border-radius: 100px;
+}
+.prima-sezione{
+    background-image: url("./images/cool-background.png"); 
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.testo-prima-sezione{
+    
+    display: flex;
+    flex-direction: column;
+}
+.testo-prima-sezione h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+.testo-prima-sezione p{
+    color: white;
+    font-style: oblique;
+}
+.testo-prima-sezione .container{
+    display: flex;
+    gap: 10px;
+}
+.testo-prima-sezione img{
+    padding-bottom: 15px;
+    width: 25px;
+}
+
