@@ -68,26 +68,27 @@ body{
 }
 .primo {
     width: 80%;
-    height: 300px;
+    height: auto;
     word-wrap: break-word;
     background-color: rgba(214, 195, 195, 0.185);
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 15px;
     
 }
-.relma-img{
-    width: 70%;
-    height: 100%;
-    background-image: url(./images/relma\ tool.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+.relma-img img{
+    border-radius: 10px; 
    
-}
+    
+   
+} 
 .relma-parag{
-    width: 50%;
+    text-align:justify;
+    width: 80%;
     word-wrap:break-word;
 }
 .relma-parag p{
