@@ -7,25 +7,39 @@ body{
     font-family: "quicksand";
 
 }
-.titoli{
+.titolo{
     font-size: 2rem;
     font-family: "quicksand";
     font-weight: bolder;
     color:  #0c5740;
+    
 }
+   @keyframes fadedown{
+    0% {
+        opacity: 0 ;
+        transform: translatey(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0px) scale(1);
+    }
+   } 
+  
+
 .navbar{
     position: fixed;
     border-radius: 20px;
-    background-color: rgba(198, 199, 164, 0);
+
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadedown 1s; 
     transition: .5s ease-in-out;
 }
 .scrolled{
-    background-color: rgba(192, 204, 170, 0.979);
+    background-color: rgba(214, 195, 195, 0.836);
     transition: .5s ease-in-out;
 }
 .container-hero{
@@ -58,11 +72,15 @@ body{
     text-align: center;
     width: 80%;
     height: 150px;
+    animation: fadedown 2s;
 }
 .paragrafo p{
+    
     font-family: "quicksand";
     font-style: italic;
+    overflow: hidden;
 }
+
 .conteiner-progetti{
     height: auto;
     width: 100%;
