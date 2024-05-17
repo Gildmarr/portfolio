@@ -29,7 +29,6 @@ body{
 .navbar{
     position: fixed;
     border-radius: 20px;
-
     width: 100%;
     height: 40px;
     display: flex;
@@ -39,7 +38,7 @@ body{
     transition: .5s ease-in-out;
 }
 .scrolled{
-    background-color: rgba(214, 195, 195, 0.836);
+    background-color: rgba(214, 195, 195, 0.911);
     transition: .5s ease-in-out;
 }
 .container-hero{
@@ -105,10 +104,11 @@ body{
 
 .relma-img img{
     border-radius: 10px; 
-   
+   } 
+   .relma-img img:hover{
     
-   
-} 
+    transform: scale(1.1);
+   }
 .relma-parag{
     text-align:justify;
     width: 80%;

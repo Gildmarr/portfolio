@@ -6,7 +6,6 @@ window.addEventListener("scroll", function() {
     else {
         $('.navbar').removeClass("scrolled");
     }});
-$(".title").hide().show(1000, ()=>{
-});
+$(".title").hide().show(1000)
 
 
