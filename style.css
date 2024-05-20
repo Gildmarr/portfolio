@@ -8,7 +8,7 @@ body{
 
 }
 .titolo{
-    font-size: 7vw;
+    font-size: 3rem;
     font-family: "quicksand";
     font-weight: bolder;
     color:  #0c5740;
@@ -70,12 +70,13 @@ body{
    
     text-align: center;
     width: 80%;
-    height: 150px;
+    height: auto;
+    padding: 10px;
     animation: fadedown 2s;
 }
 .paragrafo p{
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "quicksand";
     font-style: italic;
    
@@ -87,7 +88,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: red; */
+
 }
 .primo {
     width: 80%;
@@ -104,7 +105,9 @@ body{
     
 }
 .relma-img{
+    
     flex: 1;
+   
 }
 .relma-img img{
     width: 100%;
@@ -119,7 +122,7 @@ body{
    
 }
 .relma-parag p{
-    font-size: 0.9em;
+    font-size: 1.5rem
 }
 
 
