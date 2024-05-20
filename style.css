@@ -8,7 +8,7 @@ body{
 
 }
 .titolo{
-    font-size: 2rem;
+    font-size: 7vw;
     font-family: "quicksand";
     font-weight: bolder;
     color:  #0c5740;
@@ -67,17 +67,18 @@ body{
     height: auto;
 }
 .paragrafo{
-    word-wrap: break-word;
+   
     text-align: center;
     width: 80%;
     height: 150px;
     animation: fadedown 2s;
 }
 .paragrafo p{
-    
+    display: block;
+    font-size: 1.5rem;
     font-family: "quicksand";
     font-style: italic;
-    overflow: hidden;
+   
 }
 
 .conteiner-progetti{
@@ -99,21 +100,33 @@ body{
     align-items: center;
     gap: 10px;
     padding: 15px;
+    margin-bottom: 30px;
     
 }
-
+.relma-img{
+    flex: 1;
+}
 .relma-img img{
+    width: 100%;
     border-radius: 10px; 
-   } 
-   .relma-img img:hover{
-    
-    transform: scale(1.1);
-   }
+    } 
+
 .relma-parag{
+    flex: 1;
     text-align:justify;
-    width: 80%;
-    word-wrap:break-word;
+    font-size: 2vw;
+    padding: 10px;
+   
 }
 .relma-parag p{
     font-size: 0.9em;
 }
+
+
+
+ @media(min-width:700px){
+.primo{
+    flex-direction: row;
+   
+}
+ }
