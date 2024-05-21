@@ -86,7 +86,9 @@ a{
     font-style: italic;
    
 }
-
+.down-arrow{
+    opacity: 0.6;
+}
 .conteiner-progetti{
     height: auto;
     width: 100%;

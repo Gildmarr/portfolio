@@ -11,7 +11,7 @@ $(".title").hide().show(1000)
 
 $(".relma-img").waypoint(function(){
     $(".relma-img").addClass("animate__animated animate__fadeInLeft");
-    $(".relma-parag").addClass("animate__animated animate__fadeInRight");
+    $(".relma-parag").addClass("animate__animated animate__fadeInLeft");
 }, {offset:"80%"});
 
 $(".foto-profilo").addClass("animate__animated animate__fadeInLeft");
