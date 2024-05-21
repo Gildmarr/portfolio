@@ -2,6 +2,7 @@
 window.addEventListener("scroll", function() {
     if (window.scrollY > 0) {
         $('.navbar').addClass("scrolled");
+        console.log("scrolled")
     }
     else {
         $('.navbar').removeClass("scrolled");

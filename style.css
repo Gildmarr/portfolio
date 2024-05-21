@@ -129,9 +129,36 @@ a{
 }
 .relma-parag p{
     font-size: 1rem;
-    
+    }
+
+
+/*SEZIONE ABOUT.HTML */
+.container-contatti{
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foto-profilo{
+ text-align: center;
+
+}
+.foto-profilo img{
+    border-radius: 100px;
+    border: 5px solid white;
+    width: 150px;
+    margin-bottom: 30px;
 }
 
+.descrizione-foto-profilo{
+    text-align: center;
+    word-wrap: break-word;
+    width: 90%;
+  
+}
 
 
  @media(min-width:700px){
