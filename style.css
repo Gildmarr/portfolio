@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: antiquewhite;
     font-family: "quicksand";
@@ -87,7 +90,7 @@ a{
    
 }
 .down-arrow{
-    opacity: 0.4;
+    opacity: 0.2;
 }
 .conteiner-progetti{
     height: auto;
