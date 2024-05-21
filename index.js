@@ -8,4 +8,8 @@ window.addEventListener("scroll", function() {
     }});
 $(".title").hide().show(1000)
 
+$(".relma-img").waypoint(function(){
+    $(".relma-img").addClass("animate__animated animate__fadeInLeft");
+    $(".relma-parag").addClass("animate__animated animate__fadeInRight");
+}, {offset:"80%"});
 

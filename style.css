@@ -25,7 +25,10 @@ body{
     }
    } 
   
-
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+}
 .navbar{
     position: fixed;
     border-radius: 20px;
@@ -107,7 +110,7 @@ body{
     
 }
 .relma-img{
-    
+    opacity: 0;
     flex: 1;
    
 }
@@ -121,10 +124,12 @@ body{
     text-align:justify;
     font-size: 2vw;
     padding: 10px;
+    opacity: 0;
    
 }
 .relma-parag p{
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    
 }
 
 
