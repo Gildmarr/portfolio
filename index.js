@@ -15,4 +15,4 @@ $(".relma-img").waypoint(function(){
 }, {offset:"80%"});
 
 $(".foto-profilo").addClass("animate__animated animate__fadeInLeft");
-$(".descrizione-foto-profilo").addClass("animate__animated animate__fadeInRight");
+$(".descrizione-foto-profilo").addClass("animate__animated animate__fadeInLeft");
