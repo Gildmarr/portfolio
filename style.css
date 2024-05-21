@@ -128,7 +128,7 @@ a{
    
 }
 .relma-parag p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     
 }
 
@@ -137,6 +137,8 @@ a{
  @media(min-width:700px){
 .primo{
     flex-direction: row;
-   
-}
+   }
+   .relma-parag p{
+    font-size: 1.5rem;
+    }
  }
