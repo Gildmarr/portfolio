@@ -148,7 +148,7 @@ a{
 }
 .foto-profilo img{
     border-radius: 100px;
-    border: 5px solid white;
+    border: 5px solid #0c574091;
     width: 150px;
     margin-bottom: 30px;
 }
@@ -162,10 +162,20 @@ a{
 
 
  @media(min-width:700px){
-.primo{
+    .primo{
     flex-direction: row;
    }
-   .relma-parag p{
+    .relma-parag p{
     font-size: 1.5rem;
+    }
+    .foto-profilo img{
+        width: 220px;
+        border-radius: 200px;
+    }
+    .descrizione-foto-profilo{
+        font-size: 1.5rem;
+    }
+    .container-nav li{
+        font-size: 1.5rem;
     }
  }
